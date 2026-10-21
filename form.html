@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validateForm() {
+            let username=document.getElementById("username").value;
+            if (username ==" ") {
+                alert("username is required");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <title>My Project</title>
+</head>
+<body>
+    <h1>My Form</h1>
+    <form onsubmit="return validateForm()">
+        <label>Name</label>
+        <input type="text" id="username">
+        <button type="submit" onclick="validateForm()">submit</button>
+        
+
+    </form>
+
+</body>
+</html>
