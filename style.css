@@ -2,8 +2,9 @@ body{margin:0;
     font-family:Arial; }
     .header h1{
         margin:2;
-    background-color: aqua;
-padding: 20px; }
+                    background-color: brown;
+                    color:black;
+                    padding: 20px; }
         .hero { 
             background-color:red;
             text-align:center;
@@ -15,7 +16,7 @@ padding: 20px; }
                 color:aquamarine;
                 font-size:20px; }
                 .hero button {
-                    background-color: rgb(4, 29, 51);
+                    background-color: rgb(116, 248, 9);
                     color:rgb(170, 5, 5);
                     padding:20px;
                 }
